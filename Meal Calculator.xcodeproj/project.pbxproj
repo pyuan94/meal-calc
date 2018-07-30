@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB0615B210EF19200738861 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0615A210EF19200738861 /* AppDelegate.swift */; };
+		DAB06162210EF19200738861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB06161210EF19200738861 /* Assets.xcassets */; };
+		DAB06165210EF19200738861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB06163210EF19200738861 /* LaunchScreen.storyboard */; };
+		DAB06170210EF19200738861 /* Meal_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0616F210EF19200738861 /* Meal_CalculatorTests.swift */; };
+		DAB0617B210EF19200738861 /* Meal_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0617A210EF19200738861 /* Meal_CalculatorUITests.swift */; };
+		DAB06189210EF1AB00738861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB06188210EF1AB00738861 /* Main.storyboard */; };
+		DAB0618B210EF1BD00738861 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0618A210EF1BD00738861 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB0616C210EF19200738861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB0614F210EF19200738861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB06156210EF19200738861;
+			remoteInfo = "Meal Calculator";
+		};
+		DAB06177210EF19200738861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB0614F210EF19200738861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB06156210EF19200738861;
+			remoteInfo = "Meal Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB06157210EF19200738861 /* Meal Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB0615A210EF19200738861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB06161210EF19200738861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB06164210EF19200738861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB06166210EF19200738861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB0616B210EF19200738861 /* Meal CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB0616F210EF19200738861 /* Meal_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_CalculatorTests.swift; sourceTree = "<group>"; };
+		DAB06171210EF19200738861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB06176210EF19200738861 /* Meal CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB0617A210EF19200738861 /* Meal_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_CalculatorUITests.swift; sourceTree = "<group>"; };
+		DAB0617C210EF19200738861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB06188210EF1AB00738861 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DAB0618A210EF1BD00738861 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Meal_Calculator/Meal_Calculator/ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB06154210EF19200738861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB06168210EF19200738861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB06173210EF19200738861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB0614E210EF19200738861 = {
+			isa = PBXGroup;
+			children = (
+				DAB06159210EF19200738861 /* Meal Calculator */,
+				DAB0616E210EF19200738861 /* Meal CalculatorTests */,
+				DAB06179210EF19200738861 /* Meal CalculatorUITests */,
+				DAB06158210EF19200738861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB06158210EF19200738861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB06157210EF19200738861 /* Meal Calculator.app */,
+				DAB0616B210EF19200738861 /* Meal CalculatorTests.xctest */,
+				DAB06176210EF19200738861 /* Meal CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB06159210EF19200738861 /* Meal Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				DAB0615A210EF19200738861 /* AppDelegate.swift */,
+				DAB06188210EF1AB00738861 /* Main.storyboard */,
+				DAB0618A210EF1BD00738861 /* ViewController.swift */,
+				DAB06161210EF19200738861 /* Assets.xcassets */,
+				DAB06163210EF19200738861 /* LaunchScreen.storyboard */,
+				DAB06166210EF19200738861 /* Info.plist */,
+			);
+			path = "Meal Calculator";
+			sourceTree = "<group>";
+		};
+		DAB0616E210EF19200738861 /* Meal CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB0616F210EF19200738861 /* Meal_CalculatorTests.swift */,
+				DAB06171210EF19200738861 /* Info.plist */,
+			);
+			path = "Meal CalculatorTests";
+			sourceTree = "<group>";
+		};
+		DAB06179210EF19200738861 /* Meal CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB0617A210EF19200738861 /* Meal_CalculatorUITests.swift */,
+				DAB0617C210EF19200738861 /* Info.plist */,
+			);
+			path = "Meal CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB06156210EF19200738861 /* Meal Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB0617F210EF19200738861 /* Build configuration list for PBXNativeTarget "Meal Calculator" */;
+			buildPhases = (
+				DAB06153210EF19200738861 /* Sources */,
+				DAB06154210EF19200738861 /* Frameworks */,
+				DAB06155210EF19200738861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meal Calculator";
+			productName = "Meal Calculator";
+			productReference = DAB06157210EF19200738861 /* Meal Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB0616A210EF19200738861 /* Meal CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB06182210EF19200738861 /* Build configuration list for PBXNativeTarget "Meal CalculatorTests" */;
+			buildPhases = (
+				DAB06167210EF19200738861 /* Sources */,
+				DAB06168210EF19200738861 /* Frameworks */,
+				DAB06169210EF19200738861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB0616D210EF19200738861 /* PBXTargetDependency */,
+			);
+			name = "Meal CalculatorTests";
+			productName = "Meal CalculatorTests";
+			productReference = DAB0616B210EF19200738861 /* Meal CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB06175210EF19200738861 /* Meal CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB06185210EF19200738861 /* Build configuration list for PBXNativeTarget "Meal CalculatorUITests" */;
+			buildPhases = (
+				DAB06172210EF19200738861 /* Sources */,
+				DAB06173210EF19200738861 /* Frameworks */,
+				DAB06174210EF19200738861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB06178210EF19200738861 /* PBXTargetDependency */,
+			);
+			name = "Meal CalculatorUITests";
+			productName = "Meal CalculatorUITests";
+			productReference = DAB06176210EF19200738861 /* Meal CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB0614F210EF19200738861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Paul Yuan";
+				TargetAttributes = {
+					DAB06156210EF19200738861 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DAB0616A210EF19200738861 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAB06156210EF19200738861;
+					};
+					DAB06175210EF19200738861 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAB06156210EF19200738861;
+					};
+				};
+			};
+			buildConfigurationList = DAB06152210EF19200738861 /* Build configuration list for PBXProject "Meal Calculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB0614E210EF19200738861;
+			productRefGroup = DAB06158210EF19200738861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB06156210EF19200738861 /* Meal Calculator */,
+				DAB0616A210EF19200738861 /* Meal CalculatorTests */,
+				DAB06175210EF19200738861 /* Meal CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB06155210EF19200738861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB06189210EF1AB00738861 /* Main.storyboard in Resources */,
+				DAB06165210EF19200738861 /* LaunchScreen.storyboard in Resources */,
+				DAB06162210EF19200738861 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB06169210EF19200738861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB06174210EF19200738861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB06153210EF19200738861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB0618B210EF1BD00738861 /* ViewController.swift in Sources */,
+				DAB0615B210EF19200738861 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB06167210EF19200738861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB06170210EF19200738861 /* Meal_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB06172210EF19200738861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB0617B210EF19200738861 /* Meal_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB0616D210EF19200738861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB06156210EF19200738861 /* Meal Calculator */;
+			targetProxy = DAB0616C210EF19200738861 /* PBXContainerItemProxy */;
+		};
+		DAB06178210EF19200738861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB06156210EF19200738861 /* Meal Calculator */;
+			targetProxy = DAB06177210EF19200738861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB06163210EF19200738861 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB06164210EF19200738861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB0617D210EF19200738861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB0617E210EF19200738861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB06180210EF19200738861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GHL6MSU9D;
+				INFOPLIST_FILE = "Meal Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Meal-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB06181210EF19200738861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GHL6MSU9D;
+				INFOPLIST_FILE = "Meal Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Meal-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAB06183210EF19200738861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GHL6MSU9D;
+				INFOPLIST_FILE = "Meal CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Meal-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal Calculator.app/Meal Calculator";
+			};
+			name = Debug;
+		};
+		DAB06184210EF19200738861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GHL6MSU9D;
+				INFOPLIST_FILE = "Meal CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Meal-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal Calculator.app/Meal Calculator";
+			};
+			name = Release;
+		};
+		DAB06186210EF19200738861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GHL6MSU9D;
+				INFOPLIST_FILE = "Meal CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Meal-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meal Calculator";
+			};
+			name = Debug;
+		};
+		DAB06187210EF19200738861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GHL6MSU9D;
+				INFOPLIST_FILE = "Meal CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul.Meal-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meal Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB06152210EF19200738861 /* Build configuration list for PBXProject "Meal Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB0617D210EF19200738861 /* Debug */,
+				DAB0617E210EF19200738861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB0617F210EF19200738861 /* Build configuration list for PBXNativeTarget "Meal Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB06180210EF19200738861 /* Debug */,
+				DAB06181210EF19200738861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB06182210EF19200738861 /* Build configuration list for PBXNativeTarget "Meal CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB06183210EF19200738861 /* Debug */,
+				DAB06184210EF19200738861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB06185210EF19200738861 /* Build configuration list for PBXNativeTarget "Meal CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB06186210EF19200738861 /* Debug */,
+				DAB06187210EF19200738861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB0614F210EF19200738861 /* Project object */;
+}
