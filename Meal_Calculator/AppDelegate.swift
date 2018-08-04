@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Meal Calculator
+//  Meal_Calculator
 //
-//  Created by Paul Yuan on 7/30/18.
+//  Created by Paul Yuan on 7/29/18.
 //  Copyright © 2018 Paul Yuan. All rights reserved.
 //
 

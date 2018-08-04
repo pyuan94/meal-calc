@@ -1,8 +1,8 @@
 //
 //  Meal_CalculatorTests.swift
-//  Meal CalculatorTests
+//  Meal_CalculatorTests
 //
-//  Created by Paul Yuan on 7/30/18.
+//  Created by Paul Yuan on 7/29/18.
 //  Copyright © 2018 Paul Yuan. All rights reserved.
 //
 
