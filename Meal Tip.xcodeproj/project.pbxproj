@@ -34,15 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DAFC6C1D210DC28C001590A8 /* Meal_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meal_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFC6C1D210DC28C001590A8 /* Meal Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Tip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFC6C20210DC28C001590A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFC6C27210DC28C001590A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAFC6C2A210DC28C001590A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAFC6C2C210DC28C001590A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAFC6C31210DC28C001590A8 /* Meal_CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Meal_CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFC6C31210DC28C001590A8 /* Meal TipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal TipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFC6C35210DC28C001590A8 /* Meal_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_CalculatorTests.swift; sourceTree = "<group>"; };
 		DAFC6C37210DC28C001590A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAFC6C3C210DC28C001590A8 /* Meal_CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Meal_CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFC6C3C210DC28C001590A8 /* Meal TipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal TipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFC6C40210DC28C001590A8 /* Meal_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_CalculatorUITests.swift; sourceTree = "<group>"; };
 		DAFC6C42210DC28C001590A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAFC6C4E210DC2AA001590A8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		DAFC6C1E210DC28C001590A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAFC6C1D210DC28C001590A8 /* Meal_Calculator.app */,
-				DAFC6C31210DC28C001590A8 /* Meal_CalculatorTests.xctest */,
-				DAFC6C3C210DC28C001590A8 /* Meal_CalculatorUITests.xctest */,
+				DAFC6C1D210DC28C001590A8 /* Meal Tip.app */,
+				DAFC6C31210DC28C001590A8 /* Meal TipTests.xctest */,
+				DAFC6C3C210DC28C001590A8 /* Meal TipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAFC6C1C210DC28C001590A8 /* Meal_Calculator */ = {
+		DAFC6C1C210DC28C001590A8 /* Meal Tip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAFC6C45210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal_Calculator" */;
+			buildConfigurationList = DAFC6C45210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal Tip" */;
 			buildPhases = (
 				DAFC6C19210DC28C001590A8 /* Sources */,
 				DAFC6C1A210DC28C001590A8 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Meal_Calculator;
+			name = "Meal Tip";
 			productName = Meal_Calculator;
-			productReference = DAFC6C1D210DC28C001590A8 /* Meal_Calculator.app */;
+			productReference = DAFC6C1D210DC28C001590A8 /* Meal Tip.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DAFC6C30210DC28C001590A8 /* Meal_CalculatorTests */ = {
+		DAFC6C30210DC28C001590A8 /* Meal TipTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAFC6C48210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal_CalculatorTests" */;
+			buildConfigurationList = DAFC6C48210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal TipTests" */;
 			buildPhases = (
 				DAFC6C2D210DC28C001590A8 /* Sources */,
 				DAFC6C2E210DC28C001590A8 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				DAFC6C33210DC28C001590A8 /* PBXTargetDependency */,
 			);
-			name = Meal_CalculatorTests;
+			name = "Meal TipTests";
 			productName = Meal_CalculatorTests;
-			productReference = DAFC6C31210DC28C001590A8 /* Meal_CalculatorTests.xctest */;
+			productReference = DAFC6C31210DC28C001590A8 /* Meal TipTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DAFC6C3B210DC28C001590A8 /* Meal_CalculatorUITests */ = {
+		DAFC6C3B210DC28C001590A8 /* Meal TipUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAFC6C4B210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal_CalculatorUITests" */;
+			buildConfigurationList = DAFC6C4B210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal TipUITests" */;
 			buildPhases = (
 				DAFC6C38210DC28C001590A8 /* Sources */,
 				DAFC6C39210DC28C001590A8 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				DAFC6C3E210DC28C001590A8 /* PBXTargetDependency */,
 			);
-			name = Meal_CalculatorUITests;
+			name = "Meal TipUITests";
 			productName = Meal_CalculatorUITests;
-			productReference = DAFC6C3C210DC28C001590A8 /* Meal_CalculatorUITests.xctest */;
+			productReference = DAFC6C3C210DC28C001590A8 /* Meal TipUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DAFC6C18210DC28C001590A8 /* Build configuration list for PBXProject "Meal_Calculator" */;
+			buildConfigurationList = DAFC6C18210DC28C001590A8 /* Build configuration list for PBXProject "Meal Tip" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAFC6C1C210DC28C001590A8 /* Meal_Calculator */,
-				DAFC6C30210DC28C001590A8 /* Meal_CalculatorTests */,
-				DAFC6C3B210DC28C001590A8 /* Meal_CalculatorUITests */,
+				DAFC6C1C210DC28C001590A8 /* Meal Tip */,
+				DAFC6C30210DC28C001590A8 /* Meal TipTests */,
+				DAFC6C3B210DC28C001590A8 /* Meal TipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		DAFC6C33210DC28C001590A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAFC6C1C210DC28C001590A8 /* Meal_Calculator */;
+			target = DAFC6C1C210DC28C001590A8 /* Meal Tip */;
 			targetProxy = DAFC6C32210DC28C001590A8 /* PBXContainerItemProxy */;
 		};
 		DAFC6C3E210DC28C001590A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAFC6C1C210DC28C001590A8 /* Meal_Calculator */;
+			target = DAFC6C1C210DC28C001590A8 /* Meal Tip */;
 			targetProxy = DAFC6C3D210DC28C001590A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,7 +456,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal_Calculator.app/Meal_Calculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal Tip.app/Meal Tip";
 			};
 			name = Debug;
 		};
@@ -472,7 +472,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal_Calculator.app/Meal_Calculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal Tip.app/Meal Tip";
 			};
 			name = Release;
 		};
@@ -509,7 +509,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAFC6C18210DC28C001590A8 /* Build configuration list for PBXProject "Meal_Calculator" */ = {
+		DAFC6C18210DC28C001590A8 /* Build configuration list for PBXProject "Meal Tip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAFC6C43210DC28C001590A8 /* Debug */,
@@ -518,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAFC6C45210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal_Calculator" */ = {
+		DAFC6C45210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal Tip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAFC6C46210DC28C001590A8 /* Debug */,
@@ -527,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAFC6C48210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal_CalculatorTests" */ = {
+		DAFC6C48210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal TipTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAFC6C49210DC28C001590A8 /* Debug */,
@@ -536,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAFC6C4B210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal_CalculatorUITests" */ = {
+		DAFC6C4B210DC28C001590A8 /* Build configuration list for PBXNativeTarget "Meal TipUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAFC6C4C210DC28C001590A8 /* Debug */,
