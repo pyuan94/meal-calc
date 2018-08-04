@@ -129,6 +129,7 @@ class ViewController: UIViewController{
                     baseCost.text = "$0.00"
                     label.text = ""
                     prevTip = 1
+                    curNumber = 0
             
             }
             prevNumber = curNumber
